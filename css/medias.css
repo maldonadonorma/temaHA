@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* ==================================================
+  Diseño Rsponsivo
+  ================================================== */
+@media (max-width: 61.9em) {
+section,  .block,  .cta {
+	padding: 35px 0;
+}
+.features {
+	padding-bottom: 5px;
+}
+p,  .block p {
+	margin: 0;
+}
+.hero-brand {
+	margin-bottom: 35px;
+}
+.tagline {
+	margin: 35px 0;
+}
+h1 {
+	font-size: 32px;
+	margin: 0;
+}
+h2,  .tagline {
+	font-size: 24px;
+}
+h2 {
+	margin-bottom: 25px;
+}
+h3 {
+	font-size: 14px;
+}
+.hero {
+	padding: 75px 0;
+}
+.stats-col {
+	margin-bottom: 25px;
+}
+.block {
+	height: auto;
+}
+.feature-col {
+	padding-bottom: 30px;
+}
+.portfolio-grid .card h3.card-title {
+	font-size: 18px !important;
+}
+.portfolio-grid .card .card-text {
+	font-size: 13px;
+}
+.team .team-over {
+	padding-top: 20px;
+}
+.team .card .social-nav {
+	margin-bottom: 15px;
+	padding: 0;
+}
+.site-footer .social-nav {
+	margin-bottom: 35px;
+}
+.site-footer .list-inline {
+	text-align: center;
+	padding-bottom: 15px;
+}
+.site-footer .list-inline li {
+	display: inline-block;
+}
+}
+
+/****header****/
+@media (max-width: 768px) {
+#header {
+	height: 80px;
+}
+#header #logo {
+	margin: 10px 0 0 0;
+}
+#header #logo h1 {
+	padding: 5px 0;
+	font-size: 26px;
+}
+#header #logo img {
+	max-height: 55px;
+	margin: -5px auto;
+}
+}
+
+/* Nav Meu Container */
+@media (max-width: 768px) {
+#nav-menu-container {
+	display: none;
+}
+}
+
+/* Mobile menu nav Toggle */
+@media (max-width: 768px) {
+#mobile-nav-toggle {
+	display: inline;
+}
+}
+
+/**/
+@media (max-width: 767px) {
+.block {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+}
+
+/*Others*/
+@media (max-width: 1199px) {
+.ua {
+	margin-top: -108px;
+	margin-left: 775px;
+}
+}
+
+@media (max-width: 1024px) {
+.ua {
+	margin-top: -110px;
+	margin-left: 755px;
+}
+}
+
+@media (max-width: 768px) {
+.ua {
+	margin-top: -45px;
+	margin-left: 325px;
+}
+}
+
+@media (max-width: 740px) {
+.ua {
+	margin-top: -98px;
+	margin-left: 325px;
+}
+}
+
+@media (max-width: 568px) {
+.logos {
+	font-size: 600%;
+	color: #fff;
+}
+.curso {
+	margin: 0 10px;
+	max-width: 230px;
+	min-width: 150px;
+}
+.ua {
+	margin-top: -48px;
+	margin-left: 150px;
+}
+}
+
+@media (max-width: 420px) {
+.logos {
+	font-size: 700%;
+	color: #fff;
+}
+.curso {
+	margin: 0 auto;
+	max-width: 200px;
+	min-width: 150px;
+}
+.uapa {
+	margin-top: 2px;
+	margin-left: 0px;
+}
+.ua {
+	margin-top: -98px;
+	margin-left: 150px;
+}
+}
+
+@media (max-width: 380px) {
+.logos {
+	font-size: 400%;
+	color: #fff;
+}
+.curso {
+	margin: 0 auto;
+	max-width: 200px;
+	min-width: 150px;
+}
+.uapa {
+	margin-top: 2px;
+	margin-left: 0px;
+}
+}
+
+@media (max-width: 360px) {
+.logos {
+	font-size: 480%;
+	color: #fff;
+}
+.curso {
+	margin: 0 auto;
+	max-width: 200px;
+	min-width: 150px;
+}
+.uapa {
+	margin-top: 2px;
+	margin-left: 0px;
+}
+#header #logo img {
+	display: none;
+}
+.ua {
+	margin-top: -48px;
+	margin-left: 70px;
+}
+.tagline {
+	margin: 15px 0;
+}
+}
+
+@media (max-width: 330px) {
+.logos {
+	font-size: 450%;
+	color: #fff;
+}
+.ua {
+	margin-top: -48px;
+	margin-left: 50px;
+}
+
+.tagline {
+    margin: 5px 0;
+}
+
+h2, .tagline {
+    font-size: 14px;
+}
+}

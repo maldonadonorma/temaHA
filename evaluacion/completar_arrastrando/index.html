@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Completar Enunciado Arrastrando V2.1"  />
+    <meta name="keywords" content="UNAM, CUAED"  />
+    <meta name="author" content="UNAM CUAED" />
+    <meta name="news_keywords" content="UNAM, CUAED" />
+    <meta name="generator" content="UNAM CUAED" />
+    <meta property="og:site_name" content="Completar Enunciado Arrastrando V2.1" />
+    <meta itemprop="name" content="UNAM, CUAED" />
+    <meta itemprop="image" content="" />
+    <meta itemprop="description" content="Completar Enunciado Arrastrando V2.1" />
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="activity" />
+    <meta property="og:description" content="Completar Enunciado Arrastrando V2.1" />
+    <meta property="og:image" content="" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    
+    <title>Completar Arrastrando V2.1</title>
+    
+	<script type="text/javascript" src="./SCORM/conectividadSCORM.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script>
+		var jq321 = jQuery.noConflict();var crm=105;
+	</script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jqueryui-v1.10.4.min.js"></script>
+	<script type="text/javascript" src="js/reactivos.js"></script>
+	<script type="text/javascript" src="js/listaReactivos.js"></script>
+	<script type="text/javascript" src="js/configRecurso.js"></script>
+    <script type="text/javascript" src="js/completaArrastrando.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+
+	<link href="css/font.css" rel="stylesheet" />
+    <script src="js/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css" />
+	<script type="text/javascript">
+		jq321(document).ready(function() {
+			creaIndice();
+			divideReactivosQF_A(reactivosMostrar);
+			if (mezclarPreguntas) {reordenaArreglo(preguntas)};
+			if (mezclarRespuestas) {reordenaArreglo(respuestas)};
+			iniciar();
+		});
+	</script>
+</head>
+
+<body>
+	<noscript><br/>Necesitas tener habilitado Javascript para <br/>poder hacer uso de la funcionalidad completa</noscript>
+    <section class="container arrastrando">
+		<div class="row">
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+				
+				<i class="icon-horizontal-icon icono"></i>
+				
+				<br/>
+				<p>A continuación, arrastra los elementos de la columna del lado derecho al lugar que les corresponda en la columna del lado izquierdo. Dispones de dos intentos por cada reactivo para realizar la actividad. Al finalizar podrás conocer tu desempeño.</p>
+			</div>
+			<div class="ejercicio-arrastrar col-md-12 col-lg-12 col-sm-12 col-xs-12">
+				<div class="reactivos" id="reactivo">
+					<div class="lista-preguntas">
+					</div>
+				</div>
+				<div class="respuestas" id="respuesta">
+					<div class="lista-respuestas">
+					</div>
+				</div>
+				<div class="pager col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<div class="barraInferior">
+						<button id="btnRevisar" class="btn btn-primary" onClick="revisar()">Revisar</button>
+						<button id="btnReiniciar" class="btn btn-primary" onClick="reiniciar()">Próximo intento</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

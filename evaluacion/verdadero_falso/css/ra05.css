@@ -1,0 +1,170 @@
+﻿body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    line-height: 2.3em;
+    margin:2em;
+	user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	-o-user-select: none;
+}
+
+/*Features table------------------------------------------------------------*/
+.tabla-reactivos{
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+    /* color: #2a2a2a; */
+    min-width: 320px;
+
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    font-weight: 300;
+    letter-spacing: .7px;
+    text-align: justify;
+}
+
+.tabla-reactivos td{
+	box-shadow: 0 1px 0 white;
+	-moz-box-shadow: 0 1px 0 white;
+	-webkit-box-shadow: 0 1px 0 white;
+	text-align: center;
+	padding:5px;
+	font-weight:300;
+	letter-spacing:1px
+}
+
+/*Body*/
+.tabla-reactivos tbody td{
+	text-align: left;
+	padding: 5px;
+}
+.tabla-reactivos tbody td:first-child{
+  
+}
+.tabla-reactivos tr:nth-child(even){
+	background-color: #EEE;
+}
+.tabla-reactivos tr:nth-child(odd)
+{
+	background-color: #DDD;
+}
+/*Header*/
+.tabla-reactivos1 thead td
+{
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px; 
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top: 1px solid #eaeaea; 
+	text-align: center;
+
+}
+
+.tabla-reactivos thead td:first-child
+{
+  border-top: none;
+}
+
+/*Footer*/
+.tabla-reactivos tfoot td
+{
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px; 
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom: 1px solid #dadada;
+}
+
+.tabla-reactivos tfoot td:first-child
+{
+  border-bottom: none;
+}
+.tabla-reactivos th {
+	background-color: #BBB;
+	text-align:center;
+	padding-left:10px
+}
+.retroBien{
+    color: rgb(0, 131, 0);
+    background-color: rgba(0, 255, 0, 0.1);
+    border: 1px solid rgb(0, 165, 0);
+    padding: 6px;
+    border-radius: 3px;
+	line-height:30px;
+}
+
+.retroMal{
+    color: rgb(131, 0, 0);
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 1px solid rgb(165, 0, 0);
+    padding: 6px;
+    border-radius: 3px;
+	margin: 0 2px;
+	line-height:30px;
+}
+.mostrarRetro{
+    display:inline-block;
+}
+
+.ocultarRetro{
+    display:none;
+}
+.tabla-reactivos td.preguntaOpciones{
+	width: 80px;
+	height:4em;
+	text-align:center;
+	vertical-align:middle;
+}
+/* CSS Document */
+p{
+    font-size: 1.1em;
+    line-height: 1.8em;
+    font-weight: 300;
+    letter-spacing: .7px;
+    text-align: justify;
+}
+.headings {
+    font-family: 'Open Sans', sans-serif;
+    color: #b1b1b1;
+    letter-spacing: 1px;
+    font-size: 1em;
+    margin: 0;
+}
+.actividad {
+    max-width: 250px;
+    background: #b1b1b1;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff!important;
+    margin-bottom: 15px !important;
+}
+.headings-int {
+    font-family: 'Open Sans', sans-serif;
+    color: #6c6b82;
+    letter-spacing: 1px;
+    font-size: 2em;
+    margin-top: 0;
+}
+.under-li {
+    border-bottom: solid #dbdbdb;
+    border-width: 3px;
+    padding-bottom: 9px;
+    width: 80%;
+}
+.icono{
+	font-size: 6em;
+	float: right;
+	color: #b1b1b1;
+  }
+  @media (min-width:900px){
+	.icono {
+	  display: none;
+  }
+}

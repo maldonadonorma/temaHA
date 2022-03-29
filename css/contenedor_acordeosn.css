@@ -1,0 +1,89 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+.panel-group .panel {
+
+    border: none;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  
+    background: #ffffff;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body p{
+ 
+    font-size: 1.1em;
+}
+
+.xs-text{
+    font-size: 60%;
+}
+
+/************ Estilo de los textos ************/
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #00d4c0;
+    letter-spacing: .4px;
+    font-size: 2em;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: #666666;
+	font-size: 1.1em;
+	line-height: 1.8em;
+    font-weight: 300;
+    letter-spacing: .7px;
+    text-align:justify;
+}
+.acordeonTit{
+	font-size:1.5em;
+	padding-top:5px;
+	}
+
+/************ Estilo de los botones ************/
+a{
+	color: #954F69;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+a:hover{
+	color: #3F5B83;
+	text-decoration: none;
+}
+a>p{
+ 
+    color: #666666;
+    text-decoration: none;
+}
+a:hover>p{
+ 
+    color: #04897f !important;
+    text-decoration: none;
+}
+a:visited, a:focus { 
+    text-decoration: none !important;
+	
+	}
+
+
+
+
+
+/************ Estilos de los acordeones ************/
+.panel-default > .panel-heading {
+    color: #666666;
+    background-color:transparent;
+    border-color:none;
+}
+.small-xs{
+	    font-size: .7em;	
+}
+
+.panel h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: -webkit-inline-box;
+}
+
+
+
